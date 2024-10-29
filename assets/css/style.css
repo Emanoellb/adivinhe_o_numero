@@ -63,7 +63,11 @@ header {
     outline: none;
 }
 
-
+input::-webkit-inner-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .btn-jogar {
     display: flex;
