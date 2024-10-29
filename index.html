@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinhe o número</title>
+    <link rel="shortcut icon" href="favicon/android-chrome-192x192.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="Logo">
+                <h1>Adivinhe o número</h1>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-jogo">
+        <div class="card-jogo">
+            <h1>Olá, bem vindo ao jogo!</h1>
+            <h4>Digite um número de 0 a 100.</h4>
+            <div class="palpites_jogador">
+                <label for="Palpite">Palpite</label>
+                <input id="number" type="number">
+            </div>
+            <button onclick="verificarNumero()" class="btn-jogar">JOGAR</button>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
